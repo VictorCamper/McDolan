@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.1)  17 SEP 2017 16:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.1)  17 SEP 2017 19:45
 entering extended mode
 **./Informe.tex
 (Informe.tex
@@ -624,10 +624,26 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 66.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<utal.jpg, id=1, 418.56375pt x 430.60875pt>
+<arrows.png, id=1, 1213.53375pt x 189.70876pt>
+File: arrows.png Graphic file (type png)
+ <use arrows.png>
+Package pdftex.def Info: arrows.png used on input line 102.
+(pdftex.def)             Requested size: 546.08516pt x 85.36813pt.
+
+Overfull \hbox (34.22025pt too wide) in paragraph at lines 102--103
+[][] 
+ []
+
+<UC.jpg, id=3, 989.6975pt x 419.5675pt>
+File: UC.jpg Graphic file (type jpg)
+ <use UC.jpg>
+Package pdftex.def Info: UC.jpg used on input line 112.
+(pdftex.def)             Requested size: 494.84753pt x 209.78323pt.
+
+<utal.jpg, id=4, 418.56375pt x 430.60875pt>
 File: utal.jpg Graphic file (type jpg)
  <use utal.jpg>
-Package pdftex.def Info: utal.jpg used on input line 107.
+Package pdftex.def Info: utal.jpg used on input line 113.
 (pdftex.def)             Requested size: 41.85883pt x 43.06339pt.
 
 Overfull \hbox (163.57109pt too wide) has occurred while \output is active
@@ -646,28 +662,42 @@ Overfull \hbox (290.78824pt too wide) has occurred while \output is active
 
 [1{C:/Users/Victor/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
- <C:/Users/Victor/AppData/Local/MiKTeX/2.9/tex/latex/local/utal.jpg>] (Informe.
-aux
+ <C:/Users/Victor/AppData/Local/MiKTeX/2.9/tex/latex/local/utal.jpg> <./arrows.
+png>]
+<CLASS.jpg, id=16, 1591.9475pt x 885.3075pt>
+File: CLASS.jpg Graphic file (type jpg)
+ <use CLASS.jpg>
+Package pdftex.def Info: CLASS.jpg used on input line 120.
+(pdftex.def)             Requested size: 477.58794pt x 265.5943pt.
+
+<ER.png, id=17, 556.0775pt x 140.525pt>
+File: ER.png Graphic file (type png)
+ <use ER.png>
+Package pdftex.def Info: ER.png used on input line 127.
+(pdftex.def)             Requested size: 333.64908pt x 84.31564pt.
+ [2 <./UC.jpg> <./CLASS.jpg>] [3 <./ER.png>] (Informe.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 4946 strings out of 493362
- 66878 string characters out of 3139836
+ 4978 strings out of 493362
+ 67228 string characters out of 3139836
  147832 words of memory out of 3000000
- 8378 multiletter control sequences out of 15000+200000
- 12430 words of font info for 47 fonts, out of 3000000 for 9000
+ 8403 multiletter control sequences out of 15000+200000
+ 12944 words of font info for 49 fonts, out of 3000000 for 9000
  1127 hyphenation exceptions out of 8191
- 39i,11n,43p,303b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,11n,43p,619b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Informe.pdf (1 page, 85347 bytes).
+e1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmtt12.pfb>
+Output written on Informe.pdf (3 pages, 321163 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
+ 52 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

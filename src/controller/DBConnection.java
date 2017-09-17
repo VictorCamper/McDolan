@@ -11,6 +11,7 @@ import model.Bebida;
 import model.Topping;
 import view.BebidaView;
 import view.ToppingView;
+
 /**
  *
  * @author Victor
@@ -76,7 +77,6 @@ public class DBConnection
         Connection conn = DBConnection.getInstance();
         try
         {
-            //conn = DBConnection.connect();
             PreparedStatement pstmt = conn.prepareStatement(sql);
             pstmt.setString(1, nombre);
             pstmt.setString(2, descripcion);
@@ -98,7 +98,6 @@ public class DBConnection
         
         try
         {
-            //conn = DBConnection.connect();
             PreparedStatement pstmt = conn.prepareStatement(sql);
             pstmt.setString(1, nombre);
             pstmt.setString(2, descripcion);
@@ -119,7 +118,6 @@ public class DBConnection
         Connection conn = DBConnection.getInstance();
         try 
         {
-            //conn = DBConnection.connect();
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery(sql);
             ArrayList<String> nombres = new ArrayList<>();
@@ -145,7 +143,6 @@ public class DBConnection
         Connection conn = DBConnection.getInstance();
         try 
         {
-            //conn = DBConnection.connect();
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery(sql);
             ArrayList<String> nombres = new ArrayList<>();
@@ -171,7 +168,6 @@ public class DBConnection
         Connection conn = DBConnection.getInstance();
         try
         {
-            //conn = DBConnection.connect();
             PreparedStatement pstmt = conn.prepareStatement(sql);
             pstmt.setInt(1, idBebida);
             
@@ -199,7 +195,6 @@ public class DBConnection
         Connection conn = DBConnection.getInstance();
         try
         {
-            //conn = DBConnection.connect();
             PreparedStatement pstmt = conn.prepareStatement(sql);
             pstmt.setInt(1, idTopping);
             

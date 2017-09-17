@@ -1,18 +1,9 @@
 package view;
 
-
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 import controller.ProductoController;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
-import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -60,9 +51,7 @@ public class PrincipalController implements Initializable
     private TableView<?> tabla;
     @FXML
     private Label costoTotal;
-    
-    //private static SimpleIntegerProperty costo = new SimpleIntegerProperty(0);
-    
+        
     /**
      * Initializes the controller class.
      * @param url
@@ -71,7 +60,6 @@ public class PrincipalController implements Initializable
     @Override
     public void initialize(URL url, ResourceBundle rb)
     {
-      //  costoTotal.setLabelFor(costo);
         costoTotal.textProperty().bind(costo);
         tabla.setItems(productos);
         bebidaCol.setCellValueFactory(new PropertyValueFactory("bebida"));
@@ -88,9 +76,7 @@ public class PrincipalController implements Initializable
         
         for(Object prod : PrincipalController.productos)
             costo += ((ProductoController) prod).getTotal();
-        //PrincipalController.costo.setValue(costo);
         System.out.println("costo :" + costo);
-        //int actual = Integer.parseInt(PrincipalController.costo.get().substring(1));
         PrincipalController.costo.setValue("$"+ costo);
     }
     
@@ -102,7 +88,6 @@ public class PrincipalController implements Initializable
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
             stage.initModality(Modality.WINDOW_MODAL);
-            //stage.initStyle(StageStyle.UNDECORATED);
             stage.setTitle("Crear nueva bebida");
             stage.setScene(new Scene(root1));  
             stage.setResizable(false);
@@ -124,7 +109,6 @@ public class PrincipalController implements Initializable
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
             stage.initModality(Modality.WINDOW_MODAL);
-            //stage.initStyle(StageStyle.UNDECORATED);
             stage.setTitle("Agregar nueva bebida");
             stage.setScene(new Scene(root1));  
             stage.setResizable(false);
@@ -144,7 +128,6 @@ public class PrincipalController implements Initializable
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
             stage.initModality(Modality.WINDOW_MODAL);
-            //stage.initStyle(StageStyle.UNDECORATED);
             stage.setTitle("Crear nueva bebida");
             stage.setScene(new Scene(root1));  
             stage.setResizable(false);
