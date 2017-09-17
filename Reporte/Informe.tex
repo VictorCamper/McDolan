@@ -1,0 +1,108 @@
+\documentclass[11pt]{utalcaDoc}
+\usepackage[activeacute,spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{verbatim}
+\usepackage[spanish]{babel}
+%\usepackage{graphicx}
+%\usepackage{latexsym}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{amsthm}
+%\usepackage{anysize}
+%\marginsize{2cm}{2cm}{1.7cm}{1.5cm}
+\usepackage[top=2.7cm, bottom=2cm, left=1.8cm, right=1.8cm,headheight=110pt]{geometry}
+\usepackage{url}
+\usepackage{float}
+\usepackage{amsfonts}
+\usepackage{listings} % Mostrar código
+%\usepackage{algorithmicx}
+%\usepackage{algcompatible}
+%\usepackage[noend]{algpseudocode}
+%\usepackage{algorithm}
+%\usepackage{algorithmic}
+
+%\usepackage{listings}
+
+%\usepackage{bussproofs} % pruebas lógicas
+
+\usepackage{fancyhdr}
+
+% aqui definimos el encabezado de las paginas pares e impares.
+\lhead[Construcción de Software -- 2017-2]{Construcción de Software -- 2017-2}
+%\chead[y1]{y2}
+\rhead[Universidad de Talca]{Universidad de Talca}
+\renewcommand{\headrulewidth}{0.5pt}
+
+
+
+% aqui definimos el pie de pagina de las paginas pares e impares.
+%\lfoot[d1]{e1}
+%\cfoot[c1]{d2}
+\rfoot[Victor Reyes Medina]{Victor Reyes Medina}
+\renewcommand{\footrulewidth}{0.5pt}
+\pagestyle{fancy} 
+
+
+% Plantilla inicialmente de rapa, luego le fuí cambiando/agregando algunas cosas
+
+\title{{\bf \Large Construcción de Software \\ 
+			Prueba unidad \# 1 -- Parte II}\\ 
+			{\normalsize Semestre 2017-2 -- Prof. Daniel Moreno}} 
+\author{
+  Victor Reyes Medina\\
+  \texttt{vireyes14@alumnos.utalca.cl}
+}                                               
+\date{\today}                                   
+
+\begin{document}
+\renewcommand{\figurename}{Figura~}
+\renewcommand{\tablename}{Tabla~}
+\renewcommand{\lstlistingname}{Código~}
+\renewcommand{\theenumii}{\arabic{enumii}}
+\renewcommand{\labelenumii}{%
+ %\theenumi.\theenumii.
+  \theenumii.
+}
+\maketitle
+
+
+\section*{a. Camino Crítico}
+\subsection*{Tareas para cumplir con las funcionalidades principales}
+
+\begin{tabular}{|c|p{9.5cm}|p{3cm} |c|}
+\hline 
+\textbf{Tarea} & \textbf{Descripción} & \textbf{Predecesoras} & \textbf{Esfuerzo}\\ 
+\hline 
+A & Crear nuevas bebidas en el sistema y persistencia de las mismas. & - & 3 días  \\ 
+\hline 
+B & Agregar bebidas a una cotización. & A & 2 días \\ 
+\hline 
+C & Crear nuevos toppings en el sistema y persistencia de los mismos. & - & 3 días  \\ 
+\hline 
+D & Agregar toppings a la cotización de una bebida. & C, B & 1 día  \\ 
+\hline 
+E & Eliminar Bebidas y Toppings del sistema. & A, C & 1 día  \\ 
+\hline 
+F & Editar Bebidas y Toppings guardados en el sistema. & A, C & 2 días  \\ 
+\hline 
+G & Agregar más de una combinación bebida-topping a la cotización & B, D & 1 día  \\ 
+\hline 
+H & Revisión del código y estandarización del mismo. & A, B, C, D, E, F, G & 2 días  \\ 
+\hline 
+I & Pruebas. & H & 2 días  \\ 
+\hline
+J & Instalación del sistema. & I & 1 día  \\ 
+\hline
+
+
+
+\end{tabular} 
+
+\section*{b. Diseño del Sistema}
+
+\section*{c. Construcción de la aplicación}
+
+\section*{d. Patrones de Diseño}
+
+\end{document}
+
